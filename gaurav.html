@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaurav Jaiswal – SNA Presentation</title>
+  <style>
+    /* === Global Styles === */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    /* === Card === */
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 40px 60px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.3em;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #bcd0d7;
+      margin-bottom: 1.5em;
+    }
+
+    /* === Buttons === */
+    .btn-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 12px 30px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 30px;
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+      cursor: pointer;
+    }
+
+    .btn-ppt {
+      background-color: #00bcd4;
+      color: #fff;
+    }
+
+    .btn-ppt:hover {
+      background-color: transparent;
+      border: 2px solid #00bcd4;
+      color: #00bcd4;
+    }
+
+    .btn-demo {
+      background-color: #ff4081;
+      color: #fff;
+    }
+
+    .btn-demo:hover {
+      background-color: transparent;
+      border: 2px solid #ff4081;
+      color: #ff4081;
+    }
+
+    /* === Responsive === */
+    @media (max-width: 600px) {
+      .card {
+        padding: 30px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Gaurav Jaiswal</h1>
+    <h2>SNA Presentation | Roll No: 205124035</h2>
+    <div class="btn-container">
+      <!-- PPT Button -->
+      <a class="btn btn-ppt" href="https://docs.google.com/presentation/d/1BViw1SuNRu0_IFitLQvoEBYa0BKZX4-t/edit?usp=drive_web&ouid=109304889428280140231&rtpof=true" target="_blank">
+        📘 View the PPT
+      </a>
+      <!-- Colab Demo Button -->
+      <a class="btn btn-demo" href="https://colab.research.google.com/drive/1oDYp7M6Q6Id9tm7yec6mQH5nnCanhecL#scrollTo=0bAlLQlPw8F9" target="_blank">
+        💻 See the Demo of the Code
+      </a>
+    </div>
+  </div>
+</body>
+</html>
